@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
  spec.name         = "Fewcents-iOS-SDK"
- spec.version      = "1.0.5"
+ spec.version      = "1.0.6"
  spec.summary      = "Fewcents SDK for iOS"
  spec.description  = <<-DESC
                     Few¢ents's pay-as-you-go micropayments module helps monetise your readers community better, targeting non-subscribers and infrequent visitors. You can expect higher returns without paying fixed costs (for our platform) as compared to subscription models and ad reliance.
@@ -21,8 +21,6 @@ Pod::Spec.new do |spec|
                     }
 
  spec.ios.vendored_frameworks = 'Frameworks/Fewcents-iOS-SDK/Fewcents-iOS-SDK.xcframework'
- spec.preserve_paths = 'Frameworks/Fewcents-iOS-SDK/Fewcents-iOS-SDK.xcframework'
- spec.module_map = 'Frameworks/Fewcents-iOS-SDK/Fewcents-iOS-SDK.xcframework/Modules/module.modulemap'
 
  spec.requires_arc = true
  spec.frameworks = 'Foundation', 'UIKit', 'SystemConfiguration' , 'Security'
