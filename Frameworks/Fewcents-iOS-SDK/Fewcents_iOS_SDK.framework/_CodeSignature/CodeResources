@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		QoeE3qM+vdi5W6TJOKByvac6o5M=
+		ZE2ofbX0oy9PBRb6CnfMBfYqp5s=
 		</data>
 		<key>Calibri Light.ttf</key>
 		<data>
@@ -22,27 +22,27 @@
 		</data>
 		<key>Fewcents.storyboardc/LogoutControllerID.nib</key>
 		<data>
-		ZCvu14Z7J7pa7YOhJQFnpECYpuU=
+		6nS6/XTTngGh5qg/Xcj3CqeQbzs=
 		</data>
 		<key>Fewcents.storyboardc/PaywallVCID.nib</key>
 		<data>
-		WH9CuOhG6jOr7werPgI84vtVols=
+		h8sNwpVlPnaWRvgHIFD/F3P5Ewk=
 		</data>
 		<key>Fewcents.storyboardc/Rh0-mW-iNT-view-Bq4-Ns-qT8.nib</key>
 		<data>
-		qU+8K0QhrvjINoOZ21lRqlpr0M4=
+		r1Yu/ete2tun8Y4w+wxS+5guYLA=
 		</data>
 		<key>Fewcents.storyboardc/UIViewController-UoI-kB-dGN.nib</key>
 		<data>
-		3cGEQwW6x2g5+OtFd9eHAHRrFfQ=
+		J/3htC9pS95QtTMCpp8EVCae8+I=
 		</data>
 		<key>Fewcents.storyboardc/UoI-kB-dGN-view-dxM-Zc-I8J.nib</key>
 		<data>
-		0TddCtvD51H7Ov2vxFSZX2iHVQk=
+		DOHAtSkhPbhpvsJbnT6gbOupx4E=
 		</data>
 		<key>Fewcents.storyboardc/khd-8E-LV0-view-3WV-9c-ll0.nib</key>
 		<data>
-		EmrEesUN9MyYdH69ZaKvpFeWkH0=
+		MhbneuZU5OcDZuYvOmErRA4nD+g=
 		</data>
 		<key>Headers/Fewcents_iOS_SDK-Swift.h</key>
 		<data>
@@ -60,25 +60,17 @@
 		<data>
 		cWUnMnk2lj+xYk+JUe3kVN11/mg=
 		</data>
-		<key>Modules/Fewcents_iOS_SDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
-		<data>
-		57vlgKwfhR1Ii1w3NvxKzBL63sU=
-		</data>
-		<key>Modules/Fewcents_iOS_SDK.swiftmodule/Project/arm64.swiftsourceinfo</key>
-		<data>
-		57vlgKwfhR1Ii1w3NvxKzBL63sU=
-		</data>
 		<key>Modules/Fewcents_iOS_SDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
 		4mk52UJqsNQkRHKSuLgATHkb8Ww=
 		</data>
 		<key>Modules/Fewcents_iOS_SDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		HcskmyI1PfOh9WdsD1/usVqwSZA=
+		ioeq9KCjqDu5N0DDqrYC6XXTMgA=
 		</data>
 		<key>Modules/Fewcents_iOS_SDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		h+xTrK/0dJL01MOfME+08czI4dc=
+		CprxKUblSgjK/DtZYWwYCHigWOQ=
 		</data>
 		<key>Modules/Fewcents_iOS_SDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -86,11 +78,11 @@
 		</data>
 		<key>Modules/Fewcents_iOS_SDK.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		HcskmyI1PfOh9WdsD1/usVqwSZA=
+		ioeq9KCjqDu5N0DDqrYC6XXTMgA=
 		</data>
 		<key>Modules/Fewcents_iOS_SDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		h+xTrK/0dJL01MOfME+08czI4dc=
+		CprxKUblSgjK/DtZYWwYCHigWOQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -103,7 +95,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cKPLm8mj6Xh48hOpBYavfGlGTIosqxgBFRYo6j672bY=
+			OdYo+Nudbh8dYXY6wMeoUx8cZoJzolM2AmNYerrkPM4=
 			</data>
 		</dict>
 		<key>Calibri Light.ttf</key>
@@ -131,42 +123,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2O4nPvkgnqw2Uuitqcqh6v58+sIevyPKuXQA8xjcfx4=
+			U3D6lFASja69MSL9WSvNX5vZZXlRHG6HM1ASTlbB968=
 			</data>
 		</dict>
 		<key>Fewcents.storyboardc/PaywallVCID.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XcubPaEzNf3GpMmO8ywIci4UaqvMzlfTBVPMF+5Cay0=
+			VxFnrMwOPJ+KLpSueCUR0FEBYICZvvYOXUTXuE42HM4=
 			</data>
 		</dict>
 		<key>Fewcents.storyboardc/Rh0-mW-iNT-view-Bq4-Ns-qT8.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IidHgV8dxKET+pxxIEbTnaCe6XXeR935ux/OhRfFNKk=
+			GgqhAwqOpVMUWEFkj4f1vmUgECFN9g/9590HQICqMJA=
 			</data>
 		</dict>
 		<key>Fewcents.storyboardc/UIViewController-UoI-kB-dGN.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SJNonqu+hj24mw2uKmgO9LWxjaoEo/ngL67zAWWuQVg=
+			dyku+pz0kD9lJ66RVBrTanDTUMX2VJZHOJIM6ij3KXM=
 			</data>
 		</dict>
 		<key>Fewcents.storyboardc/UoI-kB-dGN-view-dxM-Zc-I8J.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HDTLeHcLfiEiorEjrvJjZCbAafOME02XgSfzluZANsc=
+			OEGdeL+uC6jwQQ4AJyKKPsUdh25E6DCux5cX9KZ1buA=
 			</data>
 		</dict>
 		<key>Fewcents.storyboardc/khd-8E-LV0-view-3WV-9c-ll0.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HQPOEsidEEg9r77lm/RVXVZZtj301gq34IemdbZ0CME=
+			P/EKkRymoB4doncNE96EXWNjK3sbD0A/abjcJWCN8cM=
 			</data>
 		</dict>
 		<key>Headers/Fewcents_iOS_SDK-Swift.h</key>
@@ -190,20 +182,6 @@
 			mGmNR8zEELoBrhoB9PJRHgMaWJNxlm+R/OpiRnqtq14=
 			</data>
 		</dict>
-		<key>Modules/Fewcents_iOS_SDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			q2DOSiARWrmoFNEm3CVHRST9eWVq84m7RX6WQVFAzh0=
-			</data>
-		</dict>
-		<key>Modules/Fewcents_iOS_SDK.swiftmodule/Project/arm64.swiftsourceinfo</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			q2DOSiARWrmoFNEm3CVHRST9eWVq84m7RX6WQVFAzh0=
-			</data>
-		</dict>
 		<key>Modules/Fewcents_iOS_SDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
@@ -215,14 +193,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YEt44PF5ItWNMpOwrVEEMTZHtOzvD9PpXWNt6R6q+R8=
+			XKwubUAG0zBf7FnHtWohXy+cFbun4wv53dsUV9kCm7A=
 			</data>
 		</dict>
 		<key>Modules/Fewcents_iOS_SDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fl0Q3qDIn8vRL/hwXxnu/3MN+BexgrcY/M4V5mhlx7I=
+			kLKYDPRKsIKPRaS+Y/hr2lUHLms/x8ZiPiPvPfkybio=
 			</data>
 		</dict>
 		<key>Modules/Fewcents_iOS_SDK.swiftmodule/arm64.swiftdoc</key>
@@ -236,14 +214,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YEt44PF5ItWNMpOwrVEEMTZHtOzvD9PpXWNt6R6q+R8=
+			XKwubUAG0zBf7FnHtWohXy+cFbun4wv53dsUV9kCm7A=
 			</data>
 		</dict>
 		<key>Modules/Fewcents_iOS_SDK.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fl0Q3qDIn8vRL/hwXxnu/3MN+BexgrcY/M4V5mhlx7I=
+			kLKYDPRKsIKPRaS+Y/hr2lUHLms/x8ZiPiPvPfkybio=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
