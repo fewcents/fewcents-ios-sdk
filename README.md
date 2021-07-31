@@ -1,1 +1,1 @@
-# fewcents-ios-sdk
+# Fewcents iOS SDK
