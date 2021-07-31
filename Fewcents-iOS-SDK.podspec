@@ -21,8 +21,8 @@ Pod::Spec.new do |spec|
                     }
 
  spec.ios.vendored_frameworks = 'Frameworks/Fewcents-iOS-SDK/Fewcents-iOS-SDK.xcframework'
-  spec.preserve_paths = 'Frameworks/Fewcents-iOS-SDK/Fewcents-iOS-SDK.xcframework'
-   s.module_map = 'Frameworks/Fewcents-iOS-SDK/Fewcents-iOS-SDK.xcframework/Modules/module.modulemap'
+ spec.preserve_paths = 'Frameworks/Fewcents-iOS-SDK/Fewcents-iOS-SDK.xcframework'
+ spec.module_map = 'Frameworks/Fewcents-iOS-SDK/Fewcents-iOS-SDK.xcframework/Modules/module.modulemap'
 
  spec.requires_arc = true
  spec.frameworks = 'Foundation', 'UIKit', 'SystemConfiguration' , 'Security'
