@@ -51,4 +51,26 @@ Where
 Finally, the SDK is successfully integrated and initialized in the project, and ready to use.
 
 
+### Usage
 
+Add the following in `ViewController` to load the paywall
+
+```
+//load default behaviour
+fewcents.loadPaywall(in: self)
+
+or
+
+//load custom behaviour
+fewcents.loadPaywall(in: self, content: contentView, position: .top)
+```
+
+```
+Where 
+  in            : ViewController of the contents
+  content       : View of the contents
+  position      : Position of the paywall over the content view (.top, .center or .bottom)
+``` 
+
+## Support
+For any issues you face with the SDK and for any help with the integration contact us at `help@fewcents.co` or you can visit this repository's [Github issue tracker](https://github.com/fewcents/fewcents-ios-sdk/issues) for bug reports specific to our iOS SDK
