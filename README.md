@@ -1,5 +1,5 @@
 ![Logo](https://github.com/fewcents/fewcents-ios-sdk/blob/main/Images/fewcents-logo.png)
-# MoEngage-iOS-SDK
+# Fewcents-iOS-SDK
 
 Fewcents enables small payments for the creator economy. We allow digital publishers to unbundle and micro-monetize text, audio, or video formats in 50+ currencies.
 
