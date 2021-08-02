@@ -10,10 +10,45 @@ Fewcents enables small payments for the creator economy. We allow digital publis
 The first step in integrating with your app is to [download the iOS SDK](https://github.com/fewcents/fewcents-ios-sdk/blob/main/Frameworks/Fewcents-iOS-SDK.xcframework.zip) itself.
 
 ### 2. Add the SDK to Your Project
-After unzipping the SDK, you find `Fewcents-iOS-SDK.xcframework`. Then, click on the main `FewcentsSwiftSample` project file in Xcode. Select the `app` target and the `General` tab. Scroll down to the `Frameworks, Libraries and Embedded Content` section and drag and drop the `Fewcents-iOS-SDK.xcframework` into the section. Build the project. See the below image as reference.
+After unzipping the SDK, you find `Fewcents-iOS-SDK.xcframework`. Then, click on the main `FewcentsSwiftSample` project file in Xcode. Select the `app` target and the `General` tab. Scroll down to the `Frameworks, Libraries and Embedded Content` section and drag and drop the `Fewcents-iOS-SDK.xcframework` into the section. See the below image as reference.
 
 ![ScreenShot-1](https://github.com/fewcents/fewcents-ios-sdk/blob/main/Images/screenshot-1.png)
 
+Build the project. 
 That’s it. The framework is added to our project.
+
+
+### Fewcents SDK Initialization
+
+  In your `ViewController` file import the `Fewcents-iOS-SDK` 
+
+#### Swift
+---- 
+ ```objc
+ #import Fewcents-iOS-SDK
+ ```
+ 
+ Add the following in `ViewDidLoad` method of `ViewController` to initialize the SDK
+ 
+```objc
+let fewcents = Fewcents(accessKey: ACCESS_KEY,
+                        category: CATEGORY,
+                        logoUrl: LOGO_URL,
+                        articleUrl: ARTICLE_URL,
+                        publisherCustomerId: PUBLISHER_CUSTOMER_ID,
+                        publisherDomain: PUBLISHER_DOMAIN)
+```
+
+```
+Where 
+  ACCESS_KEY            : created when publisher registers in the system and to be shared by fc team over email
+  CATEGORY              : article category - to be populated by client
+  LOGO_URL              : to be populated by client
+  PUBLISHER_CUSTOMER_ID : client customer id (optional)
+  PUBLISHER_DOMAIN.     : domain of the publisher
+``` 
+ 
+Finally, the SDK is successfully integrated and initialized in the project, and ready to use.
+
 
 
