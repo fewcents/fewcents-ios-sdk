@@ -55,6 +55,8 @@ Finally, the SDK is successfully integrated and initialized in the project, and 
 
 Add the following in `ViewController` to load the paywall
 
+#### Swift
+----
 ```
 //load default behaviour
 fewcents.loadPaywall(in: self)
