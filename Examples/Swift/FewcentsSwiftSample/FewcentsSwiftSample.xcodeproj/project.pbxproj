@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A5E39B326B7034100F5A692 /* Fewcents-iOS-SDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ACFDFF426B5A16F0042BF63 /* Fewcents-iOS-SDK.xcframework */; };
+		1A5E39B426B7034100F5A692 /* Fewcents-iOS-SDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1ACFDFF426B5A16F0042BF63 /* Fewcents-iOS-SDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1ACFDFD826B59FFB0042BF63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACFDFD726B59FFB0042BF63 /* AppDelegate.swift */; };
 		1ACFDFDA26B59FFB0042BF63 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACFDFD926B59FFB0042BF63 /* SceneDelegate.swift */; };
 		1ACFDFDF26B59FFB0042BF63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ACFDFDD26B59FFB0042BF63 /* Main.storyboard */; };
@@ -17,18 +19,16 @@
 		1ACFDFF026B5A0C00042BF63 /* news.json in Resources */ = {isa = PBXBuildFile; fileRef = 1ACFDFEF26B5A0C00042BF63 /* news.json */; };
 		1ACFDFF226B5A0C80042BF63 /* NewsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACFDFF126B5A0C80042BF63 /* NewsData.swift */; };
 		1ACFDFF926B5A3150042BF63 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACFDFF826B5A3150042BF63 /* Extensions.swift */; };
-		1ACFDFFE26B5AFED0042BF63 /* Fewcents-iOS-SDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ACFDFFA26B5A5970042BF63 /* Fewcents-iOS-SDK.xcframework */; };
-		1ACFDFFF26B5AFED0042BF63 /* Fewcents-iOS-SDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1ACFDFFA26B5A5970042BF63 /* Fewcents-iOS-SDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		1ACFE00026B5AFED0042BF63 /* Embed Frameworks */ = {
+		1A5E39B526B7034100F5A692 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				1ACFDFFF26B5AFED0042BF63 /* Fewcents-iOS-SDK.xcframework in Embed Frameworks */,
+				1A5E39B426B7034100F5A692 /* Fewcents-iOS-SDK.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -49,7 +49,6 @@
 		1ACFDFF126B5A0C80042BF63 /* NewsData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsData.swift; sourceTree = "<group>"; };
 		1ACFDFF426B5A16F0042BF63 /* Fewcents-iOS-SDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "Fewcents-iOS-SDK.xcframework"; path = "../../../Frameworks/Fewcents-iOS-SDK.xcframework"; sourceTree = "<group>"; };
 		1ACFDFF826B5A3150042BF63 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		1ACFDFFA26B5A5970042BF63 /* Fewcents-iOS-SDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "Fewcents-iOS-SDK.xcframework"; path = "../../../../../Desktop/FewArchive/Fewcents-iOS-SDK.xcframework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1ACFDFFE26B5AFED0042BF63 /* Fewcents-iOS-SDK.xcframework in Frameworks */,
+				1A5E39B326B7034100F5A692 /* Fewcents-iOS-SDK.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,7 +101,6 @@
 		1ACFDFF326B5A16F0042BF63 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1ACFDFFA26B5A5970042BF63 /* Fewcents-iOS-SDK.xcframework */,
 				1ACFDFF426B5A16F0042BF63 /* Fewcents-iOS-SDK.xcframework */,
 			);
 			name = Frameworks;
@@ -118,7 +116,7 @@
 				1ACFDFD026B59FFB0042BF63 /* Sources */,
 				1ACFDFD126B59FFB0042BF63 /* Frameworks */,
 				1ACFDFD226B59FFB0042BF63 /* Resources */,
-				1ACFE00026B5AFED0042BF63 /* Embed Frameworks */,
+				1A5E39B526B7034100F5A692 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

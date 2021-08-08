@@ -46,6 +46,7 @@ class ArticleDetailViewController: UIViewController {
                                 publisherCustomerId: PUBLISHER_CUSTOMER_ID,
                                 publisherDomain: PUBLISHER_DOMAIN)
         
+        fewcents.loadPaywall(in: self)
         fewcents.loadPaywall(in: self, content: contentView, position: .top)
     }
 }
