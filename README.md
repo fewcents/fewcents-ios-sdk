@@ -38,6 +38,15 @@ let fewcents = Fewcents(accessKey: ACCESS_KEY,
                         publisherDomain: PUBLISHER_DOMAIN)
 ```
 
+```
+Where 
+  ACCESS_KEY            : created when publisher registers in the system and to be shared by fc team over email
+  CATEGORY              : article category - to be populated by client
+  LOGO_URL              : to be populated by client
+  PUBLISHER_CUSTOMER_ID : client customer id (optional)
+  PUBLISHER_DOMAIN.     : domain of the publisher
+``` 
+
 #### In Objective C
 ---- 
   In your `.m` file import the `Fewcents-iOS-SDK` swift header as follow
