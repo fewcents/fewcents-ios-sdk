@@ -38,6 +38,25 @@ let fewcents = Fewcents(accessKey: ACCESS_KEY,
                         publisherDomain: PUBLISHER_DOMAIN)
 ```
 
+#### In Objective C
+---- 
+  In your `.m` file import the `Fewcents-iOS-SDK` swift header as follow
+
+ ```objc
+#import <Fewcents_iOS_SDK/Fewcents_iOS_SDK-Swift.h>
+ ```
+ 
+ Add the following in `ViewDidLoad` method of `ViewController` to initialize the SDK
+ 
+```objc
+Fewcents *fewcents = [[Fewcents alloc] initWithAccessKey : ACCESS_KEY
+                                                category : CATEGORY
+                                                 logoUrl : LOGO_URL
+                                              articleUrl : LOGO_URL
+                                     publisherCustomerId : PUBLISHER_CUSTOMER_ID
+                                         publisherDomain : PUBLISHER_DOMAIN];
+```
+
 ```
 Where 
   ACCESS_KEY            : created when publisher registers in the system and to be shared by fc team over email
@@ -52,9 +71,9 @@ Finally, the SDK is successfully integrated and initialized in the project, and 
 
 ### Usage
 
-Add the following in `ViewController` to load the paywall
+Add the following in the same `ViewController` to load the paywall
 
-#### Swift
+#### In Swift
 ----
 ```
 //load default behaviour
@@ -71,6 +90,25 @@ Where
   in            : ViewController of the contents
   content       : View of the contents
   position      : Position of the paywall over the content view (.top, .center or .bottom)
+``` 
+
+#### In Objective C
+----
+```
+//load default behaviour
+[fewcents loadPaywallIn: self];
+
+or
+
+//load custom behaviour
+[fewcents loadPaywallIn: self content:[self contentView] position: PositionTop];
+```
+
+```
+Where 
+  in            : ViewController of the contents
+  content       : View of the contents
+  position      : Position of the paywall over the content view (PositionTop, PositionCenter or PositionBottom)
 ``` 
 
 ## Support
