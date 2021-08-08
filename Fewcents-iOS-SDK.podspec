@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
     s.license          = { :type => "Commercial", :file => "LICENSE" }
     s.author           = { "Ayon Chowdhury" => "md.rajib.sarwar@gmail.com" }
 
-    s.source           = { :git => "https://github.com/fewcents/fewcents-ios-sdk.git", :tag => s.version.to_s }
+    s.source           = { :git => "https://github.com/fewcents/fewcents-ios-sdk.git", :tag => "fewcents-ios-sdk-" + s.version.to_s }
     s.platform         = :ios
     s.requires_arc     = true
     
