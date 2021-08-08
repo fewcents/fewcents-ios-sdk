@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
     s.platform         = :ios
     s.requires_arc     = true
     
-    s.ios.vendored_frameworks = 'iOS_SDK/OneSignalSDK/OneSignal_XCFramework/OneSignal.xcframework'
-    s.preserve_paths = 'iOS_SDK/OneSignalSDK/OneSignal_XCFramework/OneSignal.xcframework'
+    s.ios.vendored_frameworks = 'Frameworks/Distribution/Fewcents-iOS-SDK.xcframework'
+    s.preserve_paths = 'Frameworks/Distribution/Fewcents-iOS-SDK.xcframework'
     
 end
