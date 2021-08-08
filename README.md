@@ -7,7 +7,7 @@ Fewcents enables small payments for the creator economy. We allow digital publis
 ## Manual Integration
 
 ### 1. Download SDK
-The first step in integrating with your app is to [download the iOS SDK](https://github.com/fewcents/fewcents-ios-sdk/blob/main/Frameworks/Fewcents-iOS-SDK.xcframework.zip) itself.
+The first step in integrating with your app is to [download the iOS SDK](https://github.com/fewcents/fewcents-ios-sdk/blob/main/Frameworks/Manual/Fewcents-iOS-SDK.xcframework.zip) itself.
 
 ### 2. Add the SDK to Your Project
 After unzipping the SDK, you find `Fewcents-iOS-SDK.xcframework`. Then, click on the main `FewcentsSwiftSample` project file in Xcode. Select the `app` target and the `General` tab. Scroll down to the `Frameworks, Libraries and Embedded Content` section and drag and drop the `Fewcents-iOS-SDK.xcframework` into the section. See the below image as reference.
