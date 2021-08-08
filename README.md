@@ -19,11 +19,10 @@ That’s it. The framework is added to our project.
 
 
 ### Fewcents SDK Initialization
-
+#### In Swift
+---- 
   In your `ViewController` file import the `Fewcents-iOS-SDK` 
 
-#### Swift
----- 
  ```objc
  #import Fewcents-iOS-SDK
  ```
