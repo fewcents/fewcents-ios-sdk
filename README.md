@@ -30,12 +30,12 @@ That’s it. The framework is added to our project.
  Add the following in `ViewDidLoad` method of `ViewController` to initialize the SDK
  
 ```objc
-let fewcents = Fewcents(accessKey: ACCESS_KEY,
-                        category: CATEGORY,
-                        logoUrl: LOGO_URL,
-                        articleUrl: ARTICLE_URL,
-                        publisherCustomerId: PUBLISHER_CUSTOMER_ID,
-                        publisherDomain: PUBLISHER_DOMAIN)
+let fewcents = Fewcents(accessKey           : ACCESS_KEY,
+                        category            : CATEGORY,
+                        logoUrl             : LOGO_URL,
+                        articleUrl          : ARTICLE_URL,
+                        publisherCustomerId : PUBLISHER_CUSTOMER_ID,
+                        publisherDomain     : PUBLISHER_DOMAIN)
 ```
 
 ```
