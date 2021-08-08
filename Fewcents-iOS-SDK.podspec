@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = "Fewcents-iOS-SDK"
-    s.version          = "1.1.5"
+    s.version          = "1.1.6"
     s.summary          = "Fewcents SDK for iOS."
     s.description      = <<-DESC
                             Few¢ents's pay-as-you-go micropayments module helps monetise your readers community better, targeting non-subscribers and infrequent visitors. You can expect higher returns without paying fixed costs (for our platform) as compared to subscription models and ad reliance.
