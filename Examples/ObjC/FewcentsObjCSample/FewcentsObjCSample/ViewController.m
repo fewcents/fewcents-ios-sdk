@@ -14,10 +14,22 @@
 
 @implementation ViewController
 
+NSString *ACCESS_KEY = @"hounds.fewcents.co";
+NSString *CATEGORY = @"test_article";
+NSString *LOGO_URL = @"https://totlol.com/wp-content/uploads/2019/05/prothomalo.jpg";
+NSString *PUBLISHER_CUSTOMER_ID = @"abhishek_sharma";
+NSString *PUBLISHER_DOMAIN = @"hounds.fewcents.co";
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    Fewcents *fewcents = [[Fewcents alloc] initWithAccessKey: @"hounds.fewcents.co" category: @"test_article" logoUrl: @"https://totlol.com/wp-content/uploads/2019/05/prothomalo.jpg" articleUrl: @"https://totlol.com/wp-content/uploads/2019/05/prothomalo.jpg" publisherCustomerId: @"abhishek_sharma" publisherDomain: @"hounds.fewcents.co"];
+    Fewcents *fewcents = [[Fewcents alloc] initWithAccessKey: ACCESS_KEY
+                                                    category: CATEGORY
+                                                     logoUrl: LOGO_URL
+                                                  articleUrl: LOGO_URL
+                                         publisherCustomerId: PUBLISHER_CUSTOMER_ID
+                                             publisherDomain: PUBLISHER_DOMAIN];
     [fewcents loadPaywallIn:self];
+//    [fewcents loadPaywallIn:self content:[UIView self] position: PositionCenter];
 }
 
 
